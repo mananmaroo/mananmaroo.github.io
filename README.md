@@ -3,8 +3,8 @@
 #### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
 
 ## Education
-- M.S., Data Science	| New Jersey Institute of Technology (_December 2023_)	 			        		
-- B.Tech., Computer and Communication | Manipal University Jaipur (_May 2022)
+- M.S., Data Science	                | New Jersey Institute of Technology (_December 2023_)	 			        		
+- B.Tech., Computer and Communication | Manipal University Jaipur (_May 2022_)
 
 ## Work Experience
 **Data Scientist @ Bayer (_Sept 2023 - Dec 2023_)**
@@ -27,11 +27,29 @@
 ### Movie Recommendation
 [Link](https://github.com/mananmaroo/Movie-Recommendation-using-Facial-ExpressionReco)
 
-Produced a Movie Recommendation System that recommends movies with genre and similarities with other movies using a metric, cosine similarity, and ML prediction with 95% accuracy.
+- Produced a Movie Recommendation System that recommends movies with genre and similarities with other movies using a metric, cosine similarity, and ML prediction with 95% accuracy.
 
 
 ### Stock Prediction Model 
 
-Built a stock market prediction model using regression analysis and Python libraries, achieving a predictive accuracy of 85%
+- Built a stock market prediction model using regression analysis and Python libraries, achieving a predictive accuracy of 85%
+- Generated a budget-constrained stock buying algorithm using R code, optimizing the allocation of funds to maximize returns within budget constraints.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+### Invisibility Cloak
+[Link](https://github.com/mananmaroo/Invisible_Cloak)
+
+- Leveraged OpenCV2 to develop a real-time image manipulation system, demonstrating direct experience in computer vision technologies.
+
+### E-Medicare
+
+- Implemented a web application that can manage over 10,000 medical records and scans using Google storage
+- Integrated features like online prescription generation, resulting in a 25% increase in prescription efficiency
+- Reviewed 20 research papers related to image recognition on MRI and X-ray data.
+
+## Skills
+
+###Area of Expertise: Data Structures, Algorithms, Web Development, Database Management, Machine Learning, Data Science, Recommendation Systems, NLP, Tableau , Power BI
+
+###Programming Languages: Python, C, HTML, CSS, PHP, JavaScript, Java, Scikit Learn
+
+###Technologies: Flask, FastAPI, ReactJS, NodeJS, Numpy, Pandas, Keras, MySQL, OpenCv, Snowflake, Azure, DataBricks
