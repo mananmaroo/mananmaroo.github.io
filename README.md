@@ -49,11 +49,14 @@
 
 ## Skills
 
-### Area of Expertise: Data Structures, Algorithms, Web Development, Database Management, Machine Learning, Data Science, Recommendation Systems, NLP, Tableau , Power BI
+### Area of Expertise
+Data Structures, Algorithms, Web Development, Database Management, Machine Learning, Data Science, Recommendation Systems, NLP, Tableau , Power BI
 
-### Programming Languages: Python, C, HTML, CSS, PHP, JavaScript, Java, Scikit Learn
+### Programming Languages
+Python, C, HTML, CSS, PHP, JavaScript, Java, Scikit Learn
 
-### Technologies: Flask, FastAPI, ReactJS, NodeJS, Numpy, Pandas, Keras, MySQL, OpenCv, Snowflake, Azure, DataBricks
+### Technologies
+Flask, FastAPI, ReactJS, NodeJS, Numpy, Pandas, Keras, MySQL, OpenCv, Snowflake, Azure, DataBricks
 
 
 ## Visa Status
