@@ -1,7 +1,5 @@
 # Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
-
 ## Education
 - M.S., Data Science	                | New Jersey Institute of Technology (_December 2023_)	 			        		
 - B.Tech., Computer and Communication | Manipal University Jaipur (_May 2022_)
@@ -58,5 +56,5 @@
 ### Technologies: Flask, FastAPI, ReactJS, NodeJS, Numpy, Pandas, Keras, MySQL, OpenCv, Snowflake, Azure, DataBricks
 
 
-##Visa Status
+## Visa Status
 -Citizen of India with U.S. F1 student visa and OPT for 3 years, till 2027 (STEM-based)
