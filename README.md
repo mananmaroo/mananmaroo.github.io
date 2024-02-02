@@ -1,1 +1,5 @@
-# mananmaroo.github.io
+# Data Scientist
+
+###Education
+Data Science, Masters
+
