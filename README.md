@@ -1,7 +1,7 @@
 # Data Scientist
 
 
-![alt text](/img/linkedin.png)[linkedin](https://www.linkedin.com/in/mananmaroo/)
+![alt text](/img/icons8-linkedin-48.png)[linkedin](https://www.linkedin.com/in/mananmaroo/)
 [kaggle](https://www.kaggle.com/mananmaroo)
 [Resume](https://drive.google.com/drive/folders/1ZymNG8eGq-m8UGpQ7XnCl3HqW7kk1IwN?usp=share_link)
 
