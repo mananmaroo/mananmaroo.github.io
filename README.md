@@ -3,9 +3,7 @@
 
 ![alt text](/img/icons8-linkedin-48.png)[linkedin](https://www.linkedin.com/in/mananmaroo/)
 
-
 ![alt text](/img/4519136_kaggle_icon-2.png)[kaggle](https://www.kaggle.com/mananmaroo)
-
 
 ![alt text](/img/3171656_link_share_chains_icon.png)[Resume](https://drive.google.com/drive/folders/1ZymNG8eGq-m8UGpQ7XnCl3HqW7kk1IwN?usp=share_link)
 
