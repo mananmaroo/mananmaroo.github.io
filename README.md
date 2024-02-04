@@ -1,5 +1,9 @@
 # Data Scientist
 
+[linkedin](https://www.linkedin.com/in/mananmaroo/)
+[kaggle](https://www.kaggle.com/mananmaroo)
+[Resume](https://drive.google.com/drive/folders/1ZymNG8eGq-m8UGpQ7XnCl3HqW7kk1IwN?usp=share_link)
+
 ## Education
 - M.S., Data Science	                | New Jersey Institute of Technology (_December 2023_)	 			        		
 - B.Tech., Computer and Communication | Manipal University Jaipur (_May 2022_)
