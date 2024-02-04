@@ -22,8 +22,7 @@
 - Developed unique features for the company’s website which included technologies and software such as FastAPI (a web framework for building APIs with Python) and MongoDB (a NoSQL database).
 
 ## Projects
-### Movie Recommendation
-[Link](https://github.com/mananmaroo/Movie-Recommendation-using-Facial-ExpressionReco)
+### Movie Recommendation [Link](https://github.com/mananmaroo/Movie-Recommendation-using-Facial-ExpressionReco)
 
 - Produced a Movie Recommendation System that recommends movies with genre and similarities with other movies using a metric, cosine similarity, and ML prediction with 95% accuracy.
 
@@ -35,8 +34,7 @@
 - Built a stock market prediction model using regression analysis and Python libraries, achieving a predictive accuracy of 85%
 - Generated a budget-constrained stock buying algorithm using R code, optimizing the allocation of funds to maximize returns within budget constraints.
 
-### Invisibility Cloak
-[Link](https://github.com/mananmaroo/Invisible_Cloak)
+### Invisibility Cloak [Link](https://github.com/mananmaroo/Invisible_Cloak)
 
 - Leveraged OpenCV2 to develop a real-time image manipulation system, demonstrating direct experience in computer vision technologies.
 
