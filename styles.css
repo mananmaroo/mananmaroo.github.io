@@ -1,54 +1,338 @@
-/* Add to your existing styles.css, or replace the related blocks for best results */
-
-.section-card {
-  background: var(--clr-bg-alt);
-  box-shadow: var(--shadow);
-  border-radius: 18px;
-  padding: 2.5em 2em 2em 2em;
-  margin-bottom: 3em;
-  margin-top: 3em;
+:root {
+  --clr-bg: #fcfcfc;
+  --clr-card: #fff;
+  --clr-fg: #1a1a1a;
+  --clr-accent: #3a7bfd;
+  --clr-muted: #bbb;
+  --shadow: 0 8px 32px rgba(60,60,80,0.07);
+  --radius: 18px;
 }
 
-.experience__grid {
+html {
+  scroll-behavior: smooth;
+  background: var(--clr-bg);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--clr-fg);
+  margin: 0;
+  background: var(--clr-bg);
+}
+
+header {
+  background: var(--clr-bg);
+  padding: 2rem 0 1rem 0;
+  box-shadow: none;
+}
+
+.navbar {
   display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
   justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
 }
 
-.exp-card {
-  background: #fff;
-  border-radius: 14px;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
-  padding: 1.5em 1.6em;
-  min-width: 300px;
-  max-width: 420px;
-  margin-bottom: 1.5em;
+.logo a {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: var(--clr-fg);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  color: var(--clr-fg);
+  font-size: 1.04rem;
+  text-decoration: none;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.18s;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  color: var(--clr-accent);
+}
+
+main {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 1rem 3rem 1rem;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 45vh;
+  padding: 2.5rem 0 2.5rem 0;
+}
+
+.hero-content {
+  width: 100%;
   text-align: center;
 }
 
-.section__title,
-.section-card h2,
-.section-card h1,
-.section-card h4 {
-  text-align: center !important;
-  margin-bottom: 1.2em;
+.hero h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin: 0 0 0.6em 0;
+  letter-spacing: -0.01em;
 }
 
-@media (max-width: 1000px) {
-  .experience__grid {
+.hero h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--clr-accent);
+  margin: 0 0 1.4em 0;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  color: #333;
+  margin-bottom: 2.4em;
+}
+
+.hero-contacts {
+  margin-bottom: 1.2em;
+  font-size: 1.07rem;
+  color: var(--clr-muted);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7em;
+  flex-wrap: wrap;
+}
+
+.contact-link {
+  color: var(--clr-fg);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.18s;
+}
+
+.contact-link:hover {
+  color: var(--clr-accent);
+}
+
+.divider {
+  color: var(--clr-muted);
+}
+
+.hero-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.1em;
+  margin-top: 1.2em;
+}
+
+.btn-main {
+  background: var(--clr-accent);
+  color: #fff;
+  border-radius: 22px;
+  padding: 0.75em 2.1em;
+  font-weight: 600;
+  font-size: 1.07rem;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  transition: background 0.16s, box-shadow 0.16s;
+  box-shadow: 0 2px 18px rgba(58,123,253,0.09);
+  border: none;
+  outline: none;
+  display: inline-block;
+}
+.btn-main:hover,
+.btn-main:focus {
+  background: #2456b8;
+}
+
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  background: #f5f7fa;
+  border-radius: 50%;
+  transition: background 0.18s;
+  border: none;
+  outline: none;
+  box-shadow: 0 2px 10px rgba(58,123,253,0.05);
+}
+
+.icon-link img {
+  width: 22px;
+  height: 22px;
+  filter: grayscale(0.2);
+  opacity: 0.93;
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background: #e1ebff;
+}
+
+.section-card {
+  background: var(--clr-card);
+  box-shadow: var(--shadow);
+  border-radius: var(--radius);
+  padding: 2.5em 2em 2em 2em;
+  margin: 3em 0;
+}
+
+.section-card > h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 2em;
+  letter-spacing: -0.01em;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.2em;
+}
+
+.exp-card {
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(120,140,180,0.04);
+  padding: 2em 1.4em 1.2em 1.4em;
+  margin: 0 auto;
+  max-width: 550px;
+  text-align: left;
+  transition: box-shadow 0.15s;
+}
+
+.exp-card:hover {
+  box-shadow: 0 4px 24px rgba(60,60,80,0.11);
+}
+
+.exp-card h3 {
+  margin: 0 0 0.5em 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--clr-accent);
+}
+
+.exp-place {
+  font-size: 1.05rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.exp-date {
+  font-size: 0.98em;
+  color: var(--clr-muted);
+  font-weight: 400;
+}
+
+.exp-card ul {
+  margin: 1.1em 0 0 1.5em;
+  padding: 0;
+  color: #222;
+  font-size: 1.02rem;
+}
+
+.edu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8em;
+  align-items: center;
+}
+
+.edu-list h4 {
+  margin: 0 0 0.3em 0;
+  font-size: 1.13rem;
+  color: var(--clr-accent);
+  font-weight: 600;
+}
+
+.edu-list p {
+  margin: 0 0 0.8em 0;
+  color: #444;
+  font-size: 1.04rem;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8em 1.1em;
+  justify-content: center;
+  margin-top: 1.5em;
+}
+
+.skills-list span {
+  background: #f3f5fa;
+  color: #2b2b2b;
+  font-weight: 500;
+  font-size: 1.02rem;
+  border-radius: 19px;
+  padding: 0.45em 1.3em;
+  box-shadow: 0 1px 6px rgba(58,123,253,0.04);
+  margin-bottom: 0.4em;
+}
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 2em 0 0 0;
+  text-align: center;
+}
+
+.cert-list li {
+  font-size: 1.07rem;
+  padding: 0.5em 0;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 3em 0 2em 0;
+  color: var(--clr-muted);
+  font-size: 1.02rem;
+  background: var(--clr-bg);
+}
+
+@media (max-width: 900px) {
+  .navbar {
     flex-direction: column;
-    align-items: center;
+    gap: 1rem;
+    padding-bottom: 0;
   }
-  .exp-card {
-    width: 95%;
-    min-width: unset;
-    max-width: unset;
+  main {
+    padding: 0 0.5rem 2rem 0.5rem;
   }
 }
 
 @media (max-width: 600px) {
   .section-card {
     padding: 1.2em 0.5em 1em 0.5em;
+    margin: 2em 0;
+  }
+  .exp-card {
+    padding: 1.3em 0.6em 1em 0.6em;
+  }
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  .hero h2 {
+    font-size: 1.1rem;
   }
 }
