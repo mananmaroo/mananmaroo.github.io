@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Manan Maroo Projects Portfolio" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Manan Maroo | Projects</title>
+  <style>
+    .project-filter {
+      display: flex; flex-wrap: wrap; gap: 1em; justify-content: center; margin-bottom: 2em;
+    }
+    .project-filter button {
+      background: #f4f4f4; border: 1px solid #ccc; border-radius: 5px; padding: 0.5em 1.2em; cursor: pointer;
+      font-weight: bold; transition: background 0.2s;
+    }
+    .project-filter button.active, .project-filter button:hover { background: #eaeaea; }
+    .project__tags { margin-top: 0.5em; }
+    .project__tag { display: inline-block; background: #dedede; color: #333; border-radius: 2em; font-size: 0.85em; margin-right: 0.5em; padding: 0.2em 0.9em;}
+  </style>
+</head>
+<body class="light">
+  <header class="header center">
+    <h3>
+      <a href="index.html" class="link">{MM}</a>
+    </h3>
+    <nav class="nav center">
+      <ul class="nav__list center">
+        <li class="nav__list-item">
+          <a class="link link--nav" href="index.html">Home</a>
+        </li>
+        <li class="nav__list-item">
+          <a class="link link--nav" href="projects.html">Projects</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="section projects" id="projects">
+      <h2 class="section__title">Major Projects</h2>
+      <div class="project-filter">
+        <button class="active" onclick="filterProjects('all')">All</button>
+        <button onclick="filterProjects('AI')">AI</button>
+        <button onclick="filterProjects('Data Science')">Data Science</button>
+        <button onclick="filterProjects('Machine Learning')">Machine Learning</button>
+        <button onclick="filterProjects('Analytics')">Analytics</button>
+      </div>
+      <div class="projects__grid" id="projectGrid">
+        <!-- PROJECT CARDS START -->
+        <div class="project" data-tags="AI,Machine Learning">
+          <h3>AI Content Analyzer & Text Generator</h3>
+          <p class="project__description">
+            Python & AI tool for SEO text analysis, recommendations, and content generation. Uses RLHF for text optimization and improves with user feedback.
+          </p>
+          <div class="project__tags">
+            <span class="project__tag">AI</span>
+            <span class="project__tag">Machine Learning</span>
+            <span class="project__tag">Reinforcement Learning</span>
+            <span class="project__tag">Python</span>
+          </div>
+          <a href="https://github.com/mananmaroo/Headstarter_hackathon_coframe_track" target="_blank" class="link link--icon" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project" data-tags="Data Science,AI">
+          <h3>Custom Named Entity Recogniser</h3>
+          <p class="project__description">
+            Python-based tool to extract named entities from PDFs, using SpaCy for visualization. Improves NLP applications with accurate entity categorization.
+          </p>
+          <div class="project__tags">
+            <span class="project__tag">Data Science</span>
+            <span class="project__tag">AI</span>
+            <span class="project__tag">NLP</span>
+            <span class="project__tag">SpaCy</span>
+          </div>
+          <a href="https://github.com/mananmaroo/Named_entity_recogniser" target="_blank" class="link link--icon" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <div class="project" data-tags="Machine Learning,Analytics">
+          <h3>Financial Market Prediction</h3>
+          <p class="project__description">
+            Stock market prediction model with 85% accuracy and fund allocation optimizer using Python and R, tracking real-time market data.
+          </p>
+          <div class="project__tags">
+            <span class="project__tag">Machine Learning</span>
+            <span class="project__tag">Analytics</span>
+            <span class="project__tag">Python</span>
+            <span class="project__tag">R</span>
+          </div>
+        </div>
+        <div class="project" data-tags="Analytics">
+          <h3>NBA Insights</h3>
+          <p class="project__description">
+            Tableau dashboard analyzing NBA player and team data across 20 seasons, finding trends and correlations.
+          </p>
+          <div class="project__tags">
+            <span class="project__tag">Analytics</span>
+            <span class="project__tag">Tableau</span>
+            <span class="project__tag">Data Visualization</span>
+          </div>
+          <a href="https://github.com/mananmaroo/NBATableau" target="_blank" class="link link--icon" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Add more projects here as needed -->
+      </div>
+
+      <script>
+        function filterProjects(tag) {
+          const projects = document.querySelectorAll('.project');
+          document.querySelectorAll('.project-filter button').forEach(btn => btn.classList.remove('active'));
+          event.target.classList.add('active');
+          projects.forEach(project => {
+            if (tag === 'all' || project.getAttribute('data-tags').includes(tag)) {
+              project.style.display = '';
+            } else {
+              project.style.display = 'none';
+            }
+          });
+        }
+      </script>
+    </section>
+    <section class="section portfolio-links">
+      <h2 class="section__title">Portfolio Links</h2>
+      <ul>
+        <li><a href="https://www.github.com/mananmaroo" target="_blank">GitHub Profile</a></li>
+        <li><a href="https://github.com/mananmaroo/Named_entity_recogniser" target="_blank">NER Extractor Pro</a></li>
+        <li><a href="https://github.com/mananmaroo/NBATableau" target="_blank">NBA Tableau Dashboard</a></li>
+        <li><a href="https://github.com/mananmaroo/Headstarter_hackathon_coframe_track" target="_blank">Generative AI Content Analyzer</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer class="footer">
+    <a href="index.html" class="link footer__link">Back to Home</a>
+  </footer>
+</body>
+</html>
