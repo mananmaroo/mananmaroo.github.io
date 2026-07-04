@@ -1,237 +1,451 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Manan Maroo – AI Engineer building LLM-powered products in fintech and music technology." />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
-    <title>Manan Maroo</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar">
-        <div class="logo">
-          <a href="#top">Manan Maroo</a>
-        </div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#certifications">Certifications</a></li>
-        </ul>
-      </nav>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Manan Maroo — AI Engineer & Data Scientist. Founder of Agentshive. 3+ years shipping LLM-powered products, AI agents, and ML pipelines in production." />
+  <meta property="og:title" content="Manan Maroo — AI Engineer & Data Scientist" />
+  <meta property="og:description" content="Founder of Agentshive · LLM products, AI agents, MCP servers, and production ML." />
+  <meta property="og:url" content="https://www.mananmaroo.com" />
+  <meta property="og:type" content="profile" />
+  <meta name="keywords" content="Manan Maroo, AI Engineer, Machine Learning Engineer, Data Scientist, LLM Engineer, GenAI Engineer, AI Agents, MCP, RAG, LangChain, Agentshive, NJIT, hire AI engineer, Python, TypeScript" />
+  <meta name="author" content="Manan Maroo" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://www.mananmaroo.com/" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Manan Maroo — AI Engineer & Data Scientist" />
+  <meta name="twitter:description" content="Founder of Agentshive · LLM products, AI agents, MCP servers, and production ML." />
+  <title>Manan Maroo — AI Engineer &amp; Data Scientist | LLMs, AI Agents, MCP</title>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Manan Maroo",
+    "url": "https://www.mananmaroo.com",
+    "email": "mailto:maroomanan@gmail.com",
+    "telephone": "+1-862-279-2156",
+    "jobTitle": "AI Engineer & Data Scientist",
+    "worksFor": { "@type": "Organization", "name": "Agentshive", "url": "https://agentshive.net" },
+    "alumniOf": [
+      { "@type": "CollegeOrUniversity", "name": "New Jersey Institute of Technology" },
+      { "@type": "CollegeOrUniversity", "name": "Manipal University Jaipur" }
+    ],
+    "knowsAbout": ["Large Language Models", "AI Agents", "Model Context Protocol", "RAG", "Machine Learning", "NLP", "Data Science", "Prompt Engineering", "Python", "TypeScript"],
+    "knowsLanguage": ["English", "Hindi", "Dutch", "German"],
+    "sameAs": [
+      "https://linkedin.com/in/mananmaroo",
+      "https://github.com/mananmaroo",
+      "https://www.kaggle.com/mananmaroo",
+      "https://agentshive.net"
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
 
-    <main>
+  <header class="site-header">
+    <nav class="navbar">
+      <a href="#top" class="logo">MM<span class="logo-dot">.</span></a>
+      <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <!-- Hero Section -->
-      <section class="hero" id="about">
-        <div class="hero-content">
-          <h1>Hi, I'm Manan Maroo</h1>
-          <h2>AI Engineer &amp; Machine Learning Engineer</h2>
-          <p>
-            I build LLM-powered products, intelligent automation systems, and real-time data applications
-            at the intersection of fintech and music technology.<br><br>
-            M.S. in Data Science from NJIT · 3+ years shipping production AI · Passionate about
-            turning complex data into products people actually use.
-          </p>
-          <div class="hero-contacts">
-            <a href="mailto:maroomanan@gmail.com" class="contact-link" aria-label="Email">
-              maroomanan@gmail.com
-            </a>
-            <span class="divider">|</span>
-            <a href="tel:+18622792156" class="contact-link" aria-label="Phone">
-              +1 862 279 2156
-            </a>
-          </div>
-          <div class="hero-actions">
-            <a href="https://github.com/mananmaroo" target="_blank" class="icon-link" aria-label="GitHub">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
-            </a>
-            <a href="https://linkedin.com/in/mananmaroo" target="_blank" class="icon-link" aria-label="LinkedIn">
-              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" />
-            </a>
-            <a href="https://www.kaggle.com/mananmaroo" target="_blank" class="icon-link" aria-label="Kaggle">
-              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/kaggle.svg" alt="Kaggle" />
-            </a>
-          </div>
-        </div>
-      </section>
+  <main id="top">
 
-      <!-- Featured Projects Highlight -->
-      <section class="section-card project-highlight" id="project-highlight">
-        <h2>Featured Projects</h2>
-        <p style="text-align:center;max-width:520px;margin:1.2em auto 1.6em auto;">
-          From real-time global supply chain intelligence to AI-powered music mixing —
-          explore products built with LLMs, live APIs, and full-stack engineering.
+    <!-- ═══ HERO ═══ -->
+    <section class="hero" id="about">
+      <div class="hero-inner">
+        <p class="hero-kicker">// AI Engineer &amp; Data Scientist</p>
+        <h1>Manan <span class="accent">Maroo</span></h1>
+        <p class="hero-tagline">
+          I build <strong>LLM-powered products</strong>, <strong>AI agent systems</strong>, and
+          <strong>production ML pipelines</strong>. Founder of
+          <a href="https://agentshive.net" target="_blank" rel="noopener">Agentshive</a> — an open
+          registry for AI agents. 3+ years turning ambiguous problems into shipped products:
+          40% faster research turnaround, 20% campaign efficiency gains, live systems used by real clients.
         </p>
-
-        <!-- Quick project cards -->
-        <div class="project-preview-grid" style="display:flex;flex-wrap:wrap;gap:1.2em;justify-content:center;margin-bottom:2em;">
-
-          <div class="project-preview-card" style="background:#f7f9fc;border:1px solid #e0e7ef;border-radius:12px;padding:1.2em 1.4em;max-width:260px;flex:1 1 220px;">
-            <h4 style="margin:0 0 0.4em;">🌐 Supply Chain Intelligence</h4>
-            <p style="font-size:0.88em;color:#555;margin:0 0 0.8em;">Search any company — see its global suppliers, customers, and live stock prices across 10+ exchanges refreshing every 15 seconds.</p>
-            <a href="https://stockinfo-d4vd.onrender.com" target="_blank" class="btn-main" style="font-size:0.85em;padding:0.4em 1em;">Live Demo</a>
-          </div>
-
-          <div class="project-preview-card" style="background:#f7f9fc;border:1px solid #e0e7ef;border-radius:12px;padding:1.2em 1.4em;max-width:260px;flex:1 1 220px;">
-            <h4 style="margin:0 0 0.4em;">🎵 Spotify AI DJ</h4>
-            <p style="font-size:0.88em;color:#555;margin:0 0 0.8em;">AI-powered infinite mix engine supporting Spotify and YouTube with configurable mix points, popularity filtering, and artist blacklisting.</p>
-            <a href="https://spotify-ai-dj.onrender.com/" target="_blank" class="btn-main" style="font-size:0.85em;padding:0.4em 1em;">Live Demo</a>
-          </div>
-
-          <div class="project-preview-card" style="background:#f7f9fc;border:1px solid #e0e7ef;border-radius:12px;padding:1.2em 1.4em;max-width:260px;flex:1 1 220px;">
-            <h4 style="margin:0 0 0.4em;">📄 Resume Forge</h4>
-            <p style="font-size:0.88em;color:#555;margin:0 0 0.8em;">AI resume generator with ATS-optimized outputs across 8 country-specific templates using prompt engineering.</p>
-            <a href="projects.html" class="btn-main" style="font-size:0.85em;padding:0.4em 1em;">View Project</a>
-          </div>
-
-          <div class="project-preview-card" style="background:#f7f9fc;border:1px solid #e0e7ef;border-radius:12px;padding:1.2em 1.4em;max-width:260px;flex:1 1 220px;">
-            <h4 style="margin:0 0 0.4em;">🔍 Custom NLP Entity Recognizer</h4>
-            <p style="font-size:0.88em;color:#555;margin:0 0 0.8em;">Python and SpaCy-based NER system that extracts and visualizes named entities from PDFs — people, organizations, locations, and more.</p>
-            <a href="https://github.com/mananmaroo" target="_blank" class="btn-main" style="font-size:0.85em;padding:0.4em 1em;">View on GitHub</a>
-          </div>
-
+        <div class="hero-stats">
+          <div class="stat"><span class="stat-num">3+</span><span class="stat-label">Years in AI/ML</span></div>
+          <div class="stat"><span class="stat-num">15+</span><span class="stat-label">Projects shipped</span></div>
+          <div class="stat"><span class="stat-num">5</span><span class="stat-label">Cloud &amp; data certifications</span></div>
+          <div class="stat"><span class="stat-num">1M+</span><span class="stat-label">Rows per pipeline run</span></div>
         </div>
-
-        <div style="text-align:center;">
-          <a href="projects.html" class="btn-main large-btn">View All Projects</a>
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="mailto:maroomanan@gmail.com" class="btn btn-ghost">Get in touch</a>
         </div>
-      </section>
+        <div class="hero-social">
+          <a href="https://github.com/mananmaroo" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://linkedin.com/in/mananmaroo" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.kaggle.com/mananmaroo" target="_blank" rel="noopener">Kaggle</a>
+          <a href="https://agentshive.net" target="_blank" rel="noopener">Agentshive</a>
+        </div>
+      </div>
+    </section>
 
-      <!-- Experience Section -->
-      <section class="section-card" id="experience">
-        <h2>Experience</h2>
-        <div class="card-list">
+    <!-- ═══ FEATURED: AGENTSHIVE ═══ -->
+    <section class="section featured" id="featured">
+      <div class="featured-card">
+        <p class="section-kicker">Featured · Founder Project</p>
+        <h2>Agentshive <span class="badge-live">LIVE</span></h2>
+        <p class="featured-desc">
+          An open registry for AI agents supporting <strong>Claude Code, Codex, n8n, and LangChain</strong>.
+          Ships a CORS-enabled REST API for one-command agent installs and an MCP server
+          (<code>@agentshive/mcp</code>) exposing <code>search_agents</code>, <code>get_agent</code>, and
+          <code>install_agent</code> tools directly inside Claude Code, Cursor, and other MCP clients.
+        </p>
+        <div class="tags">
+          <span>Next.js 16</span><span>TypeScript</span><span>Supabase</span><span>Vercel</span><span>MCP</span><span>Edge APIs</span>
+        </div>
+        <div class="card-links">
+          <a href="https://agentshive.net" target="_blank" rel="noopener" class="btn btn-primary">agentshive.net →</a>
+          <a href="https://github.com/mananmaroo/agentshive" target="_blank" rel="noopener" class="btn btn-ghost">Source</a>
+        </div>
+      </div>
+    </section>
 
-          <div class="exp-card">
-            <h3>AI Engineer</h3>
-            <span class="exp-place">Strategic Research Insights <span class="exp-date">(Jul 2025 – Present)</span></span>
+    <!-- ═══ EXPERIENCE ═══ -->
+    <section class="section" id="experience">
+      <p class="section-kicker">Career</p>
+      <h2 class="section-title">Experience</h2>
+
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Founder &amp; AI Engineer</h3>
+              <span class="tl-date">Dec 2025 – Present</span>
+            </div>
+            <p class="tl-org">Agentshive · Remote</p>
             <ul>
-              <li>Core contributor on an LLM product initiative building AI-powered digital personas that simulate user behavior — enabling clients to query synthetic user profiles on demand, cutting post-study research cycles by an estimated 40%.</li>
-              <li>Contributed to a document intelligence product enabling natural language querying over structured data files (Excel, CSV) via REST API integrations, improving accessibility for non-technical users across 10+ client engagements.</li>
-              <li>Designed and delivered ETL data pipelines using Python, SQL, R, and SAS, processing 1M+ row datasets and translating complex business requirements into production-ready analytical workflows.</li>
-              <li>Applied prompt engineering to optimize LLM outputs for accuracy and consistency, and built predictive models that directly informed client go-to-market strategy decisions.</li>
+              <li>Founded and shipped <a href="https://agentshive.net" target="_blank" rel="noopener">agentshive.net</a>, an open registry for AI agents across Claude Code, Codex, n8n, and LangChain — Next.js 16, Supabase (Postgres + Auth), Vercel with edge-cached APIs.</li>
+              <li>Designed a CORS-enabled REST endpoint serving agent prompt files as markdown, enabling single-command installs via curl, WebFetch, or MCP.</li>
+              <li>Built an MCP server (<code>@agentshive/mcp</code>) in TypeScript exposing search, fetch, and install tools over stdio for MCP-compatible clients.</li>
+              <li>Curated production-ready agents across code review, security review, test generation, and documentation, with standardised metadata and prompts across runtimes.</li>
             </ul>
           </div>
+        </div>
 
-          <div class="exp-card">
-            <h3>Lead Data Analyst</h3>
-            <span class="exp-place">Jain Management and MBM <span class="exp-date">(Jan 2024 – Jun 2025)</span></span>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>AI Engineer</h3>
+              <span class="tl-date">Jul 2025 – Jul 2026</span>
+            </div>
+            <p class="tl-org">Strategic Research Insights · New Jersey, USA</p>
             <ul>
-              <li>Owned analytics across 5+ performance marketing campaigns, identifying conversion gaps and implementing optimizations that improved campaign efficiency by 20%.</li>
-              <li>Built real-time Tableau and Google Sheets dashboards used daily by stakeholders to monitor KPIs and drive rapid product decisions.</li>
-              <li>Delivered prescriptive analytics translating raw performance data into product strategy recommendations directly adopted by leadership.</li>
+              <li>Engineered an LLM-powered synthetic persona system that cut client research turnaround by 40% across 10+ enterprise accounts.</li>
+              <li>Launched a production document intelligence API for natural-language querying of Excel/CSV datasets, adopted across 3+ client workflows.</li>
+              <li>Built ETL pipelines (Python, SQL, R, SAS) processing 1M+ rows per run; reduced LLM error rates via systematic prompt engineering and evaluation frameworks.</li>
+              <li>Converted ambiguous business questions into statistical models that shaped go-to-market strategy for 3 enterprise clients — findings adopted without revision.</li>
             </ul>
           </div>
+        </div>
 
-          <div class="exp-card">
-            <h3>Data Science Co-op</h3>
-            <span class="exp-place">Bayer <span class="exp-date">(Sep 2023 – Dec 2023)</span></span>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Lead Data Analyst</h3>
+              <span class="tl-date">Jan 2024 – Jun 2025</span>
+            </div>
+            <p class="tl-org">Jain Management &amp; Minds Beyond Measure · New York, USA</p>
             <ul>
-              <li>Processed and validated 3M+ records through Python-based ETL pipelines for persona-based customer segmentation and behavioral analytics.</li>
-              <li>Applied clustering and predictive modeling to surface behavioral patterns across large user populations, delivering insights used in downstream product targeting.</li>
+              <li>Led analytics across 5 concurrent performance marketing campaigns; audience segmentation framework lifted campaign efficiency by 20%.</li>
+              <li>Built real-time Tableau and Google Sheets dashboards, compressing stakeholder reporting from weekly cycles to same-day visibility.</li>
+              <li>Delivered prescriptive analytics to executives; recommendations adopted without revision in 4 of 5 quarterly leadership reviews.</li>
             </ul>
           </div>
+        </div>
 
-          <div class="exp-card">
-            <h3>AI Engineer Intern</h3>
-            <span class="exp-place">Boost Money <span class="exp-date">(Jun 2023 – Aug 2023)</span></span>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Data Science Co-op</h3>
+              <span class="tl-date">Sep 2023 – Dec 2023</span>
+            </div>
+            <p class="tl-org">Bayer · New Jersey, USA</p>
             <ul>
-              <li>Built a BERT-based Named Entity Recognition model achieving 92% accuracy on financial documents, enabling automated extraction of entities from contracts, statements, and regulatory filings.</li>
-              <li>Integrated Hugging Face transformer models via REST API into the document pipeline, reducing manual review time by 30% across 50K+ financial records.</li>
-              <li>Delivered live product demos and technical documentation for production deployment, demonstrating end-to-end ownership of an AI feature in a fintech environment.</li>
+              <li>Processed and validated 3M+ records through Python ETL pipelines for persona-based customer segmentation and behavioral analytics.</li>
+              <li>Applied clustering and predictive modeling to surface behavioral patterns used in downstream product targeting.</li>
             </ul>
           </div>
-
         </div>
-      </section>
 
-      <!-- Education Section -->
-      <section class="section-card" id="education">
-        <h2>Education</h2>
-        <div class="edu-list">
-          <div>
-            <h4>Master of Science in Data Science</h4>
-            <p>New Jersey Institute of Technology, Newark, NJ &nbsp;|&nbsp; Dec 2023 &nbsp;|&nbsp; GPA: 3.75 / 4.0</p>
+        <div class="tl-item">
+          <div class="tl-marker"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>AI Engineer Intern</h3>
+              <span class="tl-date">Jun 2023 – Aug 2023</span>
+            </div>
+            <p class="tl-org">Boost Money · Fintech</p>
+            <ul>
+              <li>Built a BERT-based NER model reaching 92% accuracy on financial documents — contracts, statements, regulatory filings.</li>
+              <li>Integrated Hugging Face transformers via REST API, cutting manual review time 30% across 50K+ financial records.</li>
+            </ul>
           </div>
-          <div>
-            <h4>Bachelor of Technology in Computer and Communication Engineering</h4>
-            <p>Manipal University Jaipur, India &nbsp;|&nbsp; Jun 2022</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══ PROJECTS ═══ -->
+    <section class="section" id="projects">
+      <p class="section-kicker">Portfolio</p>
+      <h2 class="section-title">Projects</h2>
+
+      <h3 class="group-title">Live Products</h3>
+      <div class="grid">
+        <div class="card">
+          <div class="card-top"><span class="emoji">🤖</span><h4>Agentshive — AI Agent Registry</h4></div>
+          <div class="tags"><span>Next.js</span><span>TypeScript</span><span>Supabase</span><span>MCP</span></div>
+          <p>Open registry for AI agents with one-command installs and a TypeScript MCP server integrating directly into Claude Code and Cursor.</p>
+          <div class="card-links"><a href="https://agentshive.net" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo/agentshive" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🌐</span><h4>Supply Chain Market Intelligence</h4></div>
+          <div class="tags"><span>Python</span><span>React</span><span>LLM</span><span>Real-Time</span></div>
+          <p>Search any company and map its suppliers, customers, and live stock prices across 10+ global exchanges refreshing every 15 seconds, with AI-generated supply-chain risk analysis.</p>
+          <div class="card-links"><a href="https://stockinfo-d4vd.onrender.com" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🎵</span><h4>Spotify AI DJ</h4></div>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>Spotify API</span><span>React</span></div>
+          <p>Full-stack AI music mix engine for Spotify and YouTube: configurable mix points, popularity filtering, artist blacklisting, and dynamic queue reordering.</p>
+          <div class="card-links"><a href="https://spotify-ai-dj.onrender.com/" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">👗</span><h4>Fashion Fusion — Wardrobe Helper</h4></div>
+          <div class="tags"><span>Flask</span><span>Deep Learning</span><span>Computer Vision</span></div>
+          <p>Recommends outfit combinations from your wardrobe based on color theory, season, and occasion using computer vision on uploaded clothing images.</p>
+          <div class="card-links"><a href="https://wardrobe-helper-4300940c7a0a.herokuapp.com/" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo/FashionFusion" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+      </div>
+
+      <h3 class="group-title">AI Tools &amp; NLP</h3>
+      <div class="grid">
+        <div class="card">
+          <div class="card-top"><span class="emoji">📄</span><h4>Resume Forge</h4></div>
+          <div class="tags"><span>Generative AI</span><span>Prompt Engineering</span><span>NLP</span></div>
+          <p>AI resume generator producing ATS-optimized outputs across 8 country-specific templates, tailoring tone, keyword density, and formatting per region.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">💰</span><h4>Financial NER Model</h4></div>
+          <div class="tags"><span>BERT</span><span>Hugging Face</span><span>Fintech</span></div>
+          <p>BERT-based Named Entity Recognition at 92% accuracy on financial documents — automated entity extraction from contracts, statements, and filings.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/financial-ner" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🔍</span><h4>Custom NLP Entity Recognizer</h4></div>
+          <div class="tags"><span>SpaCy</span><span>NLP</span><span>NER</span></div>
+          <p>SpaCy pipeline extracting and visualizing entities from PDFs — people, orgs, locations, dates, and financial figures with inline annotated spans.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/Named_entity_recogniser" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">📊</span><h4>AI Content Analyzer &amp; SEO Generator</h4></div>
+          <div class="tags"><span>NLP</span><span>RLHF</span><span>REST API</span></div>
+          <p>Web text analyzer for SEO evaluation with RLHF-based feedback loops that refine recommendations through user ratings — 30% quality lift over baseline.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">👁️</span><h4>Visualforall — Accessibility Tool</h4></div>
+          <div class="tags"><span>Deep Learning</span><span>OCR</span><span>Computer Vision</span></div>
+          <p>Helps visually impaired users interpret online content through image captioning and OCR, designed with a strong assistive-technology UX focus.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/Visualforall" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🔤</span><h4>Font Detection App</h4></div>
+          <div class="tags"><span>Computer Vision</span><span>Image Analysis</span></div>
+          <p>Detects fonts in images and highlights where font changes occur — useful for design QA, brand consistency, and accessibility testing.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/Font_detection" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+      </div>
+
+      <h3 class="group-title">Data &amp; Analytics</h3>
+      <div class="grid">
+        <div class="card">
+          <div class="card-top"><span class="emoji">📈</span><h4>Financial Market Prediction Engine</h4></div>
+          <div class="tags"><span>Python</span><span>R</span><span>ML</span><span>Fintech</span></div>
+          <p>Market forecasting at 85% prediction accuracy using regression and statistical modeling, plus an R-based portfolio allocation optimizer.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🎯</span><h4>Next-Gen Job Recommender</h4></div>
+          <div class="tags"><span>FastAPI</span><span>MongoDB</span><span>ML</span></div>
+          <p>Scalable ML job recommendation engine improving match rates by 40%, built on FastAPI + MongoDB for production-scale throughput.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/job-recommender" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🏀</span><h4>NBA Performance Intelligence</h4></div>
+          <div class="tags"><span>Tableau</span><span>SQL</span><span>Sports Analytics</span></div>
+          <p>Interactive dashboards across 20+ NBA seasons surfacing scoring trends, team performance patterns, and player trajectories.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/NBATableau" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">📣</span><h4>Marketing Analytics Toolkit</h4></div>
+          <div class="tags"><span>Python</span><span>Jupyter</span><span>Visualization</span></div>
+          <p>Reusable analyst toolkit covering market segmentation, campaign effectiveness scoring, and business review scraping (BeautifulSoup, Scrapingdog API).</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo/marketinganalyst" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🏆</span><h4>Kaggle Competitions</h4></div>
+          <div class="tags"><span>CNN</span><span>CatBoost</span><span>LightGBM</span><span>Ensembles</span></div>
+          <p>Top-100 finish (rank 64) in Digit Recognition; Predict Student Performance from Game Play using ANN, CNN, CatBoost, and LightGBM ensembles.</p>
+          <div class="card-links"><a href="https://www.kaggle.com/mananmaroo" target="_blank" rel="noopener" class="link-live">Kaggle Profile</a></div>
+        </div>
+      </div>
+
+      <h3 class="group-title">Computer Vision &amp; Apps</h3>
+      <div class="grid">
+        <div class="card">
+          <div class="card-top"><span class="emoji">🏥</span><h4>E Medicare</h4></div>
+          <div class="tags"><span>Web App</span><span>Healthcare</span></div>
+          <p>Medical portal with online prescriptions, report storage, and medication reminders — end-to-end patient convenience platform.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">😀</span><h4>Facial Mood Recognition</h4></div>
+          <div class="tags"><span>OpenCV</span><span>Keras</span><span>Computer Vision</span></div>
+          <p>Real-time facial recognition detecting 5 distinct moods, built with OpenCV and a Keras expression-recognition model.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🧙</span><h4>Invisibility Cloak</h4></div>
+          <div class="tags"><span>OpenCV</span><span>Image Processing</span></div>
+          <p>Harry Potter-inspired invisibility effect using real-time image recognition and background substitution with OpenCV2.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+        <div class="card">
+          <div class="card-top"><span class="emoji">🎬</span><h4>Movie Recommendation Engine</h4></div>
+          <div class="tags"><span>Cosine Similarity</span><span>Recommender Systems</span></div>
+          <p>Content-based movie recommender using cosine similarity, with facial-recognition integration for mood-aware suggestions.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+      </div>
+
+      <h3 class="group-title">Publication</h3>
+      <div class="grid">
+        <div class="card pub-card">
+          <div class="card-top"><span class="emoji">📚</span><h4>Task Scheduling &amp; Load Balancing in Cloud Computing using Firefly Algorithm</h4></div>
+          <div class="tags"><span>Research Paper</span><span>Cloud Computing</span><span>Optimization</span></div>
+          <p>Peer-reviewed paper presented at the 3rd International Conference on Computing, Communication and Cyber Security (IC4S 2021).</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ SKILLS ═══ -->
+    <section class="section" id="skills">
+      <p class="section-kicker">Toolbox</p>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-group">
+          <h3>GenAI &amp; LLMs</h3>
+          <div class="tags"><span>LLMs</span><span>AI Agents</span><span>MCP</span><span>RAG</span><span>Prompt Engineering</span><span>LangChain</span><span>LangGraph</span><span>Hugging Face</span><span>BERT</span><span>NER</span><span>Vector Databases</span><span>LLM Evaluation</span><span>RLHF</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Data Science &amp; ML</h3>
+          <div class="tags"><span>Statistical Modelling</span><span>A/B Testing</span><span>Causal Inference</span><span>Regression</span><span>Clustering</span><span>NLP</span><span>Recommendation Systems</span><span>MLOps</span><span>Feature Engineering</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="tags"><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span><span>R</span><span>HTML</span><span>CSS</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Frameworks</h3>
+          <div class="tags"><span>Next.js</span><span>React</span><span>FastAPI</span><span>Flask</span><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>Keras</span><span>SpaCy</span><span>Pandas</span><span>NumPy</span><span>OpenCV</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Cloud &amp; Data Engineering</h3>
+          <div class="tags"><span>AWS</span><span>Azure</span><span>GCP</span><span>Vercel</span><span>Supabase</span><span>Snowflake</span><span>Databricks</span><span>PostgreSQL</span><span>MongoDB</span><span>Docker</span><span>Git</span><span>CI/CD</span><span>REST APIs</span><span>ETL Pipelines</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Visualisation &amp; Tools</h3>
+          <div class="tags"><span>Tableau</span><span>Power BI</span><span>Matplotlib</span><span>Seaborn</span><span>MLflow</span><span>n8n</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EDUCATION & CERTS ═══ -->
+    <section class="section" id="education">
+      <p class="section-kicker">Background</p>
+      <h2 class="section-title">Education &amp; Certifications</h2>
+      <div class="two-col">
+        <div>
+          <div class="edu-card">
+            <h3>M.S. Data Science</h3>
+            <p class="edu-meta">New Jersey Institute of Technology · Dec 2023 · GPA 3.75/4.0</p>
+            <p class="edu-detail">Machine Learning · Statistical Modelling · NLP · Recommender Systems · Experimentation Design · Data Engineering</p>
+          </div>
+          <div class="edu-card">
+            <h3>B.Tech Computer &amp; Communication Engineering</h3>
+            <p class="edu-meta">Manipal University Jaipur · Jun 2022</p>
+            <p class="edu-detail">ACM · Robotics Club · Microsoft Student Ambassador</p>
+          </div>
+          <div class="edu-card">
+            <h3>Languages</h3>
+            <p class="edu-detail">English (native) · Hindi (native) · Dutch (A1) · German (A1)</p>
           </div>
         </div>
-      </section>
-
-      <!-- Skills Section -->
-      <section class="section-card" id="skills">
-        <h2>Skills</h2>
-        <div class="skills-list">
-          <!-- AI & ML -->
-          <span>Large Language Models (LLMs)</span>
-          <span>Retrieval-Augmented Generation (RAG)</span>
-          <span>Prompt Engineering</span>
-          <span>Generative AI</span>
-          <span>Machine Learning</span>
-          <span>NLP</span>
-          <span>Named Entity Recognition</span>
-          <span>Recommendation Systems</span>
-          <span>Predictive Modeling</span>
-          <span>Customer Segmentation</span>
-          <span>RLHF</span>
-          <span>A/B Testing</span>
-          <!-- Languages -->
-          <span>Python</span>
-          <span>SQL</span>
-          <span>R</span>
-          <span>JavaScript</span>
-          <span>HTML</span>
-          <span>CSS</span>
-          <!-- Frameworks -->
-          <span>FastAPI</span>
-          <span>Flask</span>
-          <span>React</span>
-          <span>LangChain</span>
-          <span>Hugging Face</span>
-          <span>Pandas</span>
-          <span>NumPy</span>
-          <span>Scikit-learn</span>
-          <span>Keras</span>
-          <span>SpaCy</span>
-          <!-- Data Engineering -->
-          <span>ETL Pipelines</span>
-          <span>REST API Integration</span>
-          <span>Snowflake</span>
-          <span>Databricks</span>
-          <span>PostgreSQL</span>
-          <span>MongoDB</span>
-          <span>SAS</span>
-          <!-- Tools -->
-          <span>n8n</span>
-          <span>Tableau</span>
-          <span>Power BI</span>
-          <span>Git</span>
-          <span>Docker</span>
+        <div>
+          <ul class="cert-list">
+            <li>Google Advanced Data Analytics</li>
+            <li>Oracle Generative AI Professional</li>
+            <li>AWS Cloud Practitioner</li>
+            <li>Azure Fundamentals (AZ-900)</li>
+            <li>Google Cloud Associate</li>
+            <li>SQL for Data Science — UC Davis</li>
+            <li>Databases &amp; SQL for Data Science — IBM</li>
+            <li>Python for Data Science, AI &amp; Development — IBM</li>
+            <li>Predictive Modelling with Azure ML Studio</li>
+            <li>Facial Expression Recognition with Keras — Coursera</li>
+            <li>Machine Learning Foundations — Univ. of Washington</li>
+            <li>How Google Does Machine Learning — Google Cloud</li>
+          </ul>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Certifications Section -->
-      <section class="section-card" id="certifications">
-        <h2>Certifications</h2>
-        <ul class="cert-list">
-          <li>Google Advanced Data Analytics</li>
-          <li>Oracle Generative AI</li>
-          <li>AWS Cloud Practitioner</li>
-          <li>Azure Fundamentals</li>
-          <li>Google Cloud Associate</li>
-        </ul>
-      </section>
+    <!-- ═══ CONTACT ═══ -->
+    <section class="section contact" id="contact">
+      <p class="section-kicker">Say hello</p>
+      <h2 class="section-title">Let's build something</h2>
+      <p class="contact-blurb">Open to AI/ML engineering and data science opportunities worldwide. Happy to talk about LLM products, AI agents, or anything data.</p>
+      <div class="hero-actions">
+        <a href="mailto:maroomanan@gmail.com" class="btn btn-primary">maroomanan@gmail.com</a>
+        <a href="tel:+18622792156" class="btn btn-ghost">+1 (862) 279-2156</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://github.com/mananmaroo" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/mananmaroo" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.kaggle.com/mananmaroo" target="_blank" rel="noopener">Kaggle</a>
+        <a href="https://agentshive.net" target="_blank" rel="noopener">Agentshive</a>
+      </div>
+    </section>
 
-    </main>
-  </body>
+  </main>
+
+  <footer class="site-footer">
+    <span>© 2026 Manan Maroo · Built by hand, no frameworks</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
