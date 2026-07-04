@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Manan Maroo — AI Engineer & Data Scientist. Founder of Agentshive. 3+ years shipping LLM-powered products, AI agents, and ML pipelines in production." />
-  <meta property="og:title" content="Manan Maroo — AI Engineer & Data Scientist" />
+  <meta name="description" content="Manan Maroo — AI Engineer. LLMs · AI Agents · RAG · Production ML Systems. Founder of Agentshive. 3+ years shipping LLM-powered products, AI agents, and ML pipelines in production." />
+  <meta property="og:title" content="Manan Maroo — AI Engineer | LLMs · AI Agents · RAG · Production ML" />
   <meta property="og:description" content="Founder of Agentshive · LLM products, AI agents, MCP servers, and production ML." />
   <meta property="og:url" content="https://www.mananmaroo.com" />
   <meta property="og:type" content="profile" />
@@ -13,9 +13,9 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://www.mananmaroo.com/" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Manan Maroo — AI Engineer & Data Scientist" />
+  <meta name="twitter:title" content="Manan Maroo — AI Engineer | LLMs · AI Agents · RAG · Production ML" />
   <meta name="twitter:description" content="Founder of Agentshive · LLM products, AI agents, MCP servers, and production ML." />
-  <title>Manan Maroo — AI Engineer &amp; Data Scientist | LLMs, AI Agents, MCP</title>
+  <title>Manan Maroo — AI Engineer | LLMs, AI Agents, RAG, Production ML</title>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -24,7 +24,7 @@
     "url": "https://www.mananmaroo.com",
     "email": "mailto:maroomanan@gmail.com",
     "telephone": "+1-862-279-2156",
-    "jobTitle": "AI Engineer & Data Scientist",
+    "jobTitle": "AI Engineer",
     "worksFor": { "@type": "Organization", "name": "Agentshive", "url": "https://agentshive.net" },
     "alumniOf": [
       { "@type": "CollegeOrUniversity", "name": "New Jersey Institute of Technology" },
@@ -53,6 +53,7 @@
       <button class="nav-toggle" aria-label="Toggle menu">☰</button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#case-studies">Case Studies</a></li>
         <li><a href="#experience">Experience</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#skills">Skills</a></li>
@@ -67,7 +68,8 @@
     <!-- ═══ HERO ═══ -->
     <section class="hero" id="about">
       <div class="hero-inner">
-        <p class="hero-kicker">// AI Engineer &amp; Data Scientist</p>
+        <div class="hero-text">
+        <p class="hero-kicker">AI ENGINEER · LLMs · AI AGENTS · RAG · PRODUCTION ML</p>
         <h1>Manan <span class="accent">Maroo</span></h1>
         <p class="hero-tagline">
           I build <strong>LLM-powered products</strong>, <strong>AI agent systems</strong>, and
@@ -92,6 +94,10 @@
           <a href="https://www.kaggle.com/mananmaroo" target="_blank" rel="noopener">Kaggle</a>
           <a href="https://agentshive.net" target="_blank" rel="noopener">Agentshive</a>
         </div>
+        </div>
+        <div class="hero-photo">
+          <img src="img.jpeg" alt="Manan Maroo — AI Engineer" width="320" height="320" />
+        </div>
       </div>
     </section>
 
@@ -113,6 +119,51 @@
           <a href="https://agentshive.net" target="_blank" rel="noopener" class="btn btn-primary">agentshive.net →</a>
           <a href="https://github.com/mananmaroo/agentshive" target="_blank" rel="noopener" class="btn btn-ghost">Source</a>
         </div>
+      </div>
+    </section>
+
+    <!-- ═══ CASE STUDIES ═══ -->
+    <section class="section" id="case-studies">
+      <p class="section-kicker">Deep dives</p>
+      <h2 class="section-title">Case Studies</h2>
+      <div class="grid">
+
+        <div class="card case-card">
+          <div class="card-top"><span class="emoji">🤖</span><h4>Agentshive — AI Agent Registry</h4></div>
+          <div class="tags"><span>Next.js 16</span><span>TypeScript</span><span>Supabase</span><span>MCP</span><span>Vercel Edge</span></div>
+          <p><span class="case-label">Problem</span> Installing AI agents meant manual copy-paste of prompt files across Claude Code, Codex, n8n, and LangChain — no shared source of truth.</p>
+          <p><span class="case-label">Architecture</span> Next.js 16 + Supabase (Postgres + Auth) on Vercel with edge-cached APIs; a CORS-enabled REST endpoint serving prompts as markdown, plus an <code>@agentshive/mcp</code> server exposing search/get/install tools over stdio.</p>
+          <p><span class="case-label">Impact</span> One-command agent installs via curl, WebFetch, or MCP — eliminating manual setup — in a live open-source registry used across four agent runtimes.</p>
+          <div class="card-links"><a href="https://agentshive.net" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo/agentshive" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+
+        <div class="card case-card">
+          <div class="card-top"><span class="emoji">📄</span><h4>Document Intelligence API</h4></div>
+          <div class="tags"><span>LLMs</span><span>RAG</span><span>FastAPI</span><span>Python</span><span>Prompt Engineering</span></div>
+          <p><span class="case-label">Problem</span> Analysts needed to query large structured datasets (Excel, CSV) in natural language instead of writing bespoke scripts per request.</p>
+          <p><span class="case-label">Architecture</span> A production API that grounds an LLM over structured data with retrieval and output-evaluation frameworks, with systematic prompt engineering to cut error rates.</p>
+          <p><span class="case-label">Impact</span> Natural-language querying adopted across 3+ enterprise client workflows, removing hand-written analysis for routine questions.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+
+        <div class="card case-card">
+          <div class="card-top"><span class="emoji">🧠</span><h4>LLM Synthetic Personas</h4></div>
+          <div class="tags"><span>LLMs</span><span>Evaluation</span><span>Python</span><span>Research Ops</span></div>
+          <p><span class="case-label">Problem</span> Market research depended on slow, expensive live respondent panels to answer client questions.</p>
+          <p><span class="case-label">Architecture</span> An LLM-powered synthetic persona system generating panel-like responses, with evaluation frameworks to keep outputs reliable across accounts.</p>
+          <p><span class="case-label">Impact</span> Cut client research turnaround by 40% across 10+ enterprise accounts, removing dependency on live panels.</p>
+          <div class="card-links"><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+
+        <div class="card case-card">
+          <div class="card-top"><span class="emoji">🎵</span><h4>Spotify AI DJ</h4></div>
+          <div class="tags"><span>Python</span><span>FastAPI</span><span>Spotify API</span><span>React</span></div>
+          <p><span class="case-label">Problem</span> Streaming playlists lack DJ-style transitions and fine control over how tracks are mixed and sequenced.</p>
+          <p><span class="case-label">Architecture</span> Full-stack mix engine (FastAPI + React) over the Spotify and YouTube APIs with configurable mix points, popularity filtering, artist blacklisting, and dynamic queue reordering.</p>
+          <p><span class="case-label">Impact</span> A live, demo-friendly product that turns any library into a continuously mixed set.</p>
+          <div class="card-links"><a href="https://spotify-ai-dj.onrender.com/" target="_blank" rel="noopener" class="link-live">Live</a><a href="https://github.com/mananmaroo" target="_blank" rel="noopener" class="link-gh">GitHub</a></div>
+        </div>
+
       </div>
     </section>
 
